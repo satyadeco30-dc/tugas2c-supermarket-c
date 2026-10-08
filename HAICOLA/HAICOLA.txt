@@ -1,0 +1,29 @@
+HAICOLA – Tugas 2C
+
+1. Code Snippet
+
+jumlahKupon = totalPembelian / 100000;
+
+2. Prompt
+
+Saya sedang membuat program C untuk menghitung jumlah kupon dari total belanja. Ketentuannya adalah 1 kupon untuk setiap pembelian Rp100.000.
+
+Kode yang saya gunakan:
+
+jumlahKupon = totalPembelian / 100000;
+
+Apakah kode tersebut sudah benar untuk menghitung jumlah kupon? Tolong jelaskan menggunakan contoh pembelian Rp250.000 dan Rp350.000.
+
+3. Jawaban AI
+
+Kode tersebut sudah benar. Karena menggunakan tipe data int, hasil pembagian akan menjadi bilangan bulat.
+
+Rp250.000 dibagi Rp100.000 menghasilkan 2, jadi jumlah kuponnya 2.
+
+Rp350.000 dibagi Rp100.000 menghasilkan 3, jadi jumlah kuponnya 3.
+
+Jadi kode tersebut sudah sesuai dengan ketentuan jumlah kupon.
+
+4. Reflection
+
+Setelah melakukan validasi, saya jadi lebih paham kenapa pembagian tersebut bisa digunakan untuk menghitung jumlah kupon. Karena menggunakan int, angka di belakang koma tidak ikut dihitung. Dari hasil pengecekan tersebut, saya tetap menggunakan kode tersebut karena sudah sesuai dengan ketentuan tugas.
